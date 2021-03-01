@@ -9,7 +9,7 @@ This registry allows you to use packages from Harmonie in Julia 1.x.
 If you're using at least Julia 1.1, then you can add this registry with
 
 ```
-]registry add https://github.com/roelstappers/HarmonieRegistry.git
+]registry add https://github.com/Hirlam/HarmonieRegistry.git
 ```
 
 (The `]` enters Pkg mode when you type it at the REPL prompt, see https://docs.julialang.org/en/latest/stdlib/Pkg/.)
@@ -118,7 +118,7 @@ This is required only if your package uses other private packages.
               user_regs = joinpath(DEPOT_PATH[1],"registries");
               mkpath(user_regs);
               all_registries = Dict("General" => "https://github.com/JuliaRegistries/General.git",
-                                  "HarmonieRegistry" => "https://github.com/roelstappers/HarmonieRegistry.git");
+                                  "HarmonieRegistry" => "https://github.com/Hirlam/HarmonieRegistry.git");
               Base.shred!(LibGit2.CachedCredentials()) do creds
               for (reg, url) in all_registries
                   path = joinpath(user_regs, reg);
