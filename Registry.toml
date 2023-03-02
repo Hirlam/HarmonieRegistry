@@ -4,6 +4,7 @@ repo = "https://github.com/Hirlam/HarmonieRegistry"
 description = "Harmonie registry"
 
 [packages]
+2db2b2a4-6bcf-4003-86c8-d3c8382638cd = { name = "VfldFiles", path = "V/VfldFiles" }
 8047f4c8-798f-41f9-bdd5-7e8534b999d6 = { name = "Domains", path = "D/Domains" }
 81a1656b-589c-480a-be94-af58f6e50aa7 = { name = "Titan", path = "T/Titan" }
 cc4dd250-ac85-11e9-3b22-2168996fde5c = { name = "Harmonie", path = "H/Harmonie" }
