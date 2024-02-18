@@ -10,5 +10,6 @@ description = "Harmonie registry"
 bb7f0a92-8966-4c85-beb0-c371d13b1908 = { name = "NCPlots", path = "N/NCPlots" }
 cc4dd250-ac85-11e9-3b22-2168996fde5c = { name = "Harmonie", path = "H/Harmonie" }
 cfff0a2a-884f-11e9-3fa8-b162b0da1b00 = { name = "Netatmo", path = "N/Netatmo" }
+ea2dce40-b9da-4d2f-8291-c5505fb52ee1 = { name = "MEPSDatasets", path = "M/MEPSDatasets" }
 ee668f94-0f4f-5c2b-817e-1bb10fec470c = { name = "titanlib_jll", path = "T/titanlib_jll" }
 fbe08674-9bec-468f-b573-070b1062a62f = { name = "VarBCFiles", path = "V/VarBCFiles" }
