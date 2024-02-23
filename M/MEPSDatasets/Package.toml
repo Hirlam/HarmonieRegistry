@@ -1,3 +1,3 @@
 name = "MEPSDatasets"
 uuid = "ea2dce40-b9da-4d2f-8291-c5505fb52ee1"
-repo = "git@github.com:Hirlam/MEPSDatasets.jl.git"
+repo = "https://github.com/Hirlam/MEPSDatasets.jl.git"
